@@ -1,0 +1,84 @@
+body{
+    box-sizing: border-box;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+nav span:first-of-type{
+    color: orange;
+    font-size: 1.5rem;
+}
+header{
+    box-sizing: border-box;
+    float: left;
+    margin-right: 2em;
+    width: 20%;
+    height: 120vh;
+}
+img{
+    display: block;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header nav ul li {
+    margin-top: 1em;
+    font-size: 1.3rem;
+}
+nav a{
+    color: gray;
+}
+section:first-of-type{
+    float: left;
+    width: 60%;
+}
+/* section:first-of-type + section{
+    clear: both;
+} */
+.Microsoft{
+    float: left;
+    width: 100%;
+    margin-bottom: 2em;
+    
+}
+.Microsoft img{
+    width: 90%;
+}
+article ul li a{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.bottom h3, p, img{
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+#bottom{
+    width: 100%;
+}
+section .bottom + section >h3,p,img{
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    margin-bottom: 2em;
+}
+section .bottom + section +section > h3,p,img{
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    margin-bottom: 2em;
+}
+.main-section{
+   float: right;
+   width: 77%;
+   box-sizing: border-box;
+}
+.main-section h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
